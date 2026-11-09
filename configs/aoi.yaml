@@ -1,0 +1,20 @@
+# Areas of interest = tiles of the Bordeaux Métropole 1.4 km x 1 km grid (dataset to_dalle_s).
+# Curb counts and PCRS lot states as published by Bordeaux Métropole in October 2026.
+tiles:
+  OH: {name: "Pessac centre", role: main, curbs: 1555, lots: {CONSTITUE: 21, NECESSITE_NOUVELLE_ACQUISITION: 2}}
+  RL: {name: "Bordeaux centre", role: main, curbs: 2843, lots: {CONSTITUE: 44, EN_COURS_ACQUISITION: 16, NECESSITE_NOUVELLE_ACQUISITION: 6}}
+  MG: {name: "Pessac Alouette/Bersol", role: extra, curbs: 1024}
+  RM: {name: "Bordeaux Chartrons", role: extra, curbs: 2348}
+
+# Phase-1 downloads (MVP). Extra tiles come later if needed.
+download:
+  tiles: [OH, RL]
+  rasters: [ortho2023, orthoir2023, mns2023, mnt2023]   # mns/mnt: 50 cm DSM/DTM 2023 (occlusion by height)
+  lidar_tiles: [OH]
+
+# PCRS vector layers clipped to each tile (datahub ids).
+pcrs_layers:
+  - cr_objet_infra_l      # curbs (BORD), steps, gutters, ...
+  - cr_objet_delim_l      # thresholds, walls, façades
+  - cr_zone_couverture_s  # delivery lots + state
+  - to_bord_l             # roadway edges (secondary)

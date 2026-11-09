@@ -1,0 +1,48 @@
+{
+ "Pessac": {
+  "surveyed_curb_km_in_tile": 92.1,
+  "visible_from_air_share": 0.787,
+  "share_by_reason": {
+   "visible": 0.7249,
+   "vegetation": 0.1256,
+   "elevated_object": 0.0874,
+   "visible_shadow": 0.0621
+  },
+  "ortho_to_pcrs_offset_visible_curbs_cm": {
+   "east": 0.18,
+   "north": 1.81
+  },
+  "injected_shift_recovery_error_cm": [
+   -0.06,
+   -0.56
+  ],
+  "per_lot_offset_cm_reliable_lots": {
+   "median_abs_cm_reliable": 3.94,
+   "p90_abs_cm_reliable": 7.74,
+   "max_abs_cm_reliable": 10.1
+  }
+ },
+ "Bordeaux": {
+  "surveyed_curb_km_in_tile": 121.5,
+  "visible_from_air_share": 0.728,
+  "share_by_reason": {
+   "visible": 0.5501,
+   "elevated_object": 0.1785,
+   "visible_shadow": 0.1782,
+   "vegetation": 0.0933
+  },
+  "ortho_to_pcrs_offset_visible_curbs_cm": {
+   "east": 0.88,
+   "north": 2.47
+  },
+  "injected_shift_recovery_error_cm": [
+   0.02,
+   -0.02
+  ],
+  "per_lot_offset_cm_reliable_lots": {
+   "median_abs_cm_reliable": 2.31,
+   "p90_abs_cm_reliable": 3.99,
+   "max_abs_cm_reliable": 4.07
+  }
+ }
+}

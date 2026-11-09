@@ -1,0 +1,121 @@
+{
+ "model_run": "20261109-0033_unet",
+ "threshold": 0.2,
+ "coefficients": {
+  "conf_mean": 0.566,
+  "conf_min": 0.179,
+  "conf_std": -0.171,
+  "log_len": 0.549,
+  "frac_veg": 0.008,
+  "frac_elev": -0.376,
+  "frac_shadow": -0.122,
+  "lum_mean": 0.096,
+  "is_top": -0.102
+ },
+ "per_tile": {
+  "OH": {
+   "lines": 1734,
+   "drawn_m": 16674.1,
+   "wrong_share": 0.3457637893499499,
+   "random order": {
+    "auc": 0.505159359988182,
+    "caught_at_10pct": 0.09635246553782419,
+    "caught_at_20pct": 0.18651300076745078,
+    "caught_at_30pct": 0.29070830831905414,
+    "caught_at_50pct": 0.5049376145678957
+   },
+   "mean probability": {
+    "auc": 0.6257290912390238,
+    "caught_at_10pct": 0.19970312583430994,
+    "caught_at_20pct": 0.36079618325050167,
+    "caught_at_30pct": 0.486335464612926,
+    "caught_at_50pct": 0.6852795465275207
+   },
+   "calibrated confidence": {
+    "auc": 0.6223392714333498,
+    "caught_at_10pct": 0.20641156480921974,
+    "caught_at_20pct": 0.35253271729138114,
+    "caught_at_30pct": 0.47519725878923225,
+    "caught_at_50pct": 0.6623132039316972
+   },
+   "by_reason": {
+    "bright_marking": {
+     "drawn_m": 388.1,
+     "wrong_share": 0.486
+    },
+    "clear": {
+     "drawn_m": 13971.05,
+     "wrong_share": 0.317
+    },
+    "elevated_object": {
+     "drawn_m": 974.05,
+     "wrong_share": 0.465
+    },
+    "shadow": {
+     "drawn_m": 636.95,
+     "wrong_share": 0.499
+    },
+    "short": {
+     "drawn_m": 158.65,
+     "wrong_share": 0.767
+    },
+    "vegetation": {
+     "drawn_m": 545.3,
+     "wrong_share": 0.466
+    }
+   }
+  },
+  "RL": {
+   "lines": 2168,
+   "drawn_m": 12455.95,
+   "wrong_share": 0.5845037913607554,
+   "random order": {
+    "auc": 0.5029299235700029,
+    "caught_at_10pct": 0.11128069042611041,
+    "caught_at_20pct": 0.20689082890581675,
+    "caught_at_30pct": 0.30449416596273626,
+    "caught_at_50pct": 0.5098206866239485
+   },
+   "mean probability": {
+    "auc": 0.581658140166816,
+    "caught_at_10pct": 0.14600574512359285,
+    "caught_at_20pct": 0.2846955243765926,
+    "caught_at_30pct": 0.4068275445513094,
+    "caught_at_50pct": 0.625603707392476
+   },
+   "calibrated confidence": {
+    "auc": 0.5859044043293108,
+    "caught_at_10pct": 0.15036266917121413,
+    "caught_at_20pct": 0.28998938158062326,
+    "caught_at_30pct": 0.4160913827863428,
+    "caught_at_50pct": 0.6198146660165321
+   },
+   "by_reason": {
+    "bright_marking": {
+     "drawn_m": 530.35,
+     "wrong_share": 0.482
+    },
+    "clear": {
+     "drawn_m": 7567.45,
+     "wrong_share": 0.538
+    },
+    "elevated_object": {
+     "drawn_m": 1995.2,
+     "wrong_share": 0.741
+    },
+    "shadow": {
+     "drawn_m": 1873.0,
+     "wrong_share": 0.582
+    },
+    "short": {
+     "drawn_m": 223.1,
+     "wrong_share": 0.798
+    },
+    "vegetation": {
+     "drawn_m": 266.85,
+     "wrong_share": 0.77
+    }
+   }
+  }
+ }
+}

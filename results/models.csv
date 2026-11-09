@@ -1,0 +1,17 @@
+run,model,family,iterations,labels,labelled_curb_m,trained_on,trainable_params,threshold,test_area,completeness_5cm,completeness_10cm,completeness_20cm,correctness_5cm,correctness_10cm,correctness_20cm,quality_5cm,quality_10cm,quality_20cm,completeness_10cm_visible_curbs
+colour_only,Colour-only network,supervised,6000,all,114369,Pessac+Bordeaux,232034,0.2,Pessac,0.2941,0.4845,0.6129,0.2706,0.4194,0.5054,0.1693,0.3054,0.4087,0.5426
+colour_only,Colour-only network,supervised,6000,all,114369,Pessac+Bordeaux,232034,0.2,Bordeaux,0.105,0.1953,0.2862,0.1401,0.2672,0.3497,0.0654,0.1289,0.1964,0.2532
+unet,"U-Net ResNet-34, fine-tuned",supervised,6000,all,114369,Pessac+Bordeaux,23701282,0.2,Pessac,0.4628,0.6903,0.7748,0.4854,0.7134,0.7967,0.3176,0.5503,0.6563,0.7517
+unet,"U-Net ResNet-34, fine-tuned",supervised,6000,all,114369,Pessac+Bordeaux,23701282,0.2,Bordeaux,0.2378,0.4189,0.5307,0.2786,0.4813,0.6169,0.153,0.2995,0.41,0.5368
+unet_seed1,"U-Net ResNet-34, fine-tuned (seed 1)",supervised,6000,all,114369,Pessac+Bordeaux,23701282,0.3,Pessac,0.4558,0.6837,0.7737,0.479,0.7124,0.7956,0.312,0.545,0.6552,0.7468
+unet_seed1,"U-Net ResNet-34, fine-tuned (seed 1)",supervised,6000,all,114369,Pessac+Bordeaux,23701282,0.3,Bordeaux,0.2313,0.4185,0.5343,0.268,0.4788,0.6211,0.1475,0.2979,0.4128,0.531
+dinov3_sat,"DINOv3 ViT-L, satellite",natural-image FM,6000,all,114369,Pessac+Bordeaux,474082,0.2,Pessac,0.4652,0.6797,0.771,0.4913,0.7075,0.7783,0.3212,0.5404,0.645,0.7506
+dinov3_sat,"DINOv3 ViT-L, satellite",natural-image FM,6000,all,114369,Pessac+Bordeaux,474082,0.2,Bordeaux,0.2434,0.4132,0.5236,0.2987,0.4952,0.6089,0.1608,0.3017,0.4071,0.535
+dinov3_sat_seed1,"DINOv3 ViT-L, satellite (seed 1)",natural-image FM,6000,all,114369,Pessac+Bordeaux,474082,0.25,Pessac,0.4619,0.6735,0.7611,0.4967,0.7107,0.781,0.3218,0.5387,0.6398,0.7445
+dinov3_sat_seed1,"DINOv3 ViT-L, satellite (seed 1)",natural-image FM,6000,all,114369,Pessac+Bordeaux,474082,0.25,Bordeaux,0.2335,0.4002,0.5119,0.2987,0.4998,0.6202,0.1567,0.2966,0.4046,0.521
+dinov3_web,"DINOv3 ViT-B, web",natural-image FM,6000,all,114369,Pessac+Bordeaux,441314,0.15,Pessac,0.4572,0.6621,0.754,0.4873,0.6947,0.7627,0.3156,0.5226,0.6244,0.7273
+dinov3_web,"DINOv3 ViT-B, web",natural-image FM,6000,all,114369,Pessac+Bordeaux,441314,0.15,Bordeaux,0.2467,0.3944,0.4946,0.3103,0.4812,0.5732,0.1654,0.288,0.3793,0.51
+anysat,AnySat,EO FM,6000,all,114369,Pessac+Bordeaux,539618,0.25,Pessac,0.3458,0.4993,0.5934,0.4019,0.5618,0.6175,0.2345,0.3705,0.4553,0.5601
+anysat,AnySat,EO FM,6000,all,114369,Pessac+Bordeaux,539618,0.25,Bordeaux,0.1448,0.2255,0.2843,0.238,0.3633,0.4155,0.1018,0.1668,0.2149,0.2918
+dofa,DOFA ViT-B,EO FM,6000,all,114369,Pessac+Bordeaux,441314,0.15,Pessac,0.3783,0.5613,0.6661,0.3959,0.5707,0.6372,0.2462,0.4064,0.5038,0.6252
+dofa,DOFA ViT-B,EO FM,6000,all,114369,Pessac+Bordeaux,441314,0.15,Bordeaux,0.144,0.2417,0.3243,0.211,0.3483,0.4262,0.097,0.1726,0.2398,0.3167

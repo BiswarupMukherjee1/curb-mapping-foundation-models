@@ -1,0 +1,134 @@
+{
+ "OH": {
+  "decomposition": {
+   "correct (<= 10 cm)": 0.714,
+   "right line type, 10-20 cm away": 0.088,
+   "far from any PCRS line": 0.08,
+   "on the other curb line": 0.077,
+   "other PCRS objects": 0.042
+  },
+  "pairing_bottom_lines": {
+   "duplicate_within_5cm": 0.002500073879251751,
+   "partner_8_35cm": 0.9518366381985284
+  },
+  "signed_offset_towards_road": {
+   "bottom": {
+    "median_cm": -0.6156158830308733,
+    "iqr_cm": [
+     -4.797646505013703,
+     3.9212700027946488
+    ]
+   },
+   "top": {
+    "median_cm": 0.17299693297105526,
+    "iqr_cm": [
+     -4.353082930047022,
+     4.95310304530309
+    ]
+   }
+  },
+  "model_labels": {
+   "bottom": {
+    "completeness_10cm": 0.601778179253338,
+    "correctness_10cm": 0.6387990762124711,
+    "completeness_5cm": 0.4122748402690986
+   },
+   "top": {
+    "completeness_10cm": 0.6369222542854491,
+    "correctness_10cm": 0.651855480650649,
+    "completeness_5cm": 0.4193310324408168
+   }
+  },
+  "fix_road_side_relabel": {
+   "changed_share": 0.1787773933102653,
+   "bottom": {
+    "completeness_10cm": 0.5326906974537925,
+    "correctness_10cm": 0.5952009150586831,
+    "completeness_5cm": 0.3603071288035341
+   },
+   "top": {
+    "completeness_10cm": 0.5945384000106059,
+    "correctness_10cm": 0.5832289519489302,
+    "completeness_5cm": 0.38734759533163343
+   }
+  },
+  "fix_snap_to_edge": {
+   "bottom": {
+    "completeness_10cm": 0.49759527138785425,
+    "correctness_10cm": 0.481252785891904,
+    "completeness_5cm": 0.29409872174031404
+   },
+   "top": {
+    "completeness_10cm": 0.5546093712023121,
+    "correctness_10cm": 0.520390317255357,
+    "completeness_5cm": 0.34780082107393645
+   }
+  }
+ },
+ "RL": {
+  "decomposition": {
+   "correct (<= 10 cm)": 0.467,
+   "far from any PCRS line": 0.223,
+   "right line type, 10-20 cm away": 0.145,
+   "on the other curb line": 0.085,
+   "other PCRS objects": 0.08
+  },
+  "pairing_bottom_lines": {
+   "duplicate_within_5cm": 0.001209599753457375,
+   "partner_8_35cm": 0.8882699641742748
+  },
+  "signed_offset_towards_road": {
+   "bottom": {
+    "median_cm": 0.08961205068911587,
+    "iqr_cm": [
+     -6.557719480851011,
+     6.988921804458655
+    ]
+   },
+   "top": {
+    "median_cm": 0.9895039252348038,
+    "iqr_cm": [
+     -5.507591724993722,
+     8.225794505542153
+    ]
+   }
+  },
+  "model_labels": {
+   "bottom": {
+    "completeness_10cm": 0.34758014850277136,
+    "correctness_10cm": 0.4098594248411266,
+    "completeness_5cm": 0.19925632414971126
+   },
+   "top": {
+    "completeness_10cm": 0.35711208776107256,
+    "correctness_10cm": 0.4069219583782495,
+    "completeness_5cm": 0.20935751643141617
+   }
+  },
+  "fix_road_side_relabel": {
+   "changed_share": 0.19095940959409594,
+   "bottom": {
+    "completeness_10cm": 0.31946222940075997,
+    "correctness_10cm": 0.3904040984024907,
+    "completeness_5cm": 0.18390871378937707
+   },
+   "top": {
+    "completeness_10cm": 0.34773290062395773,
+    "correctness_10cm": 0.3841535717650422,
+    "completeness_5cm": 0.20152963469004284
+   }
+  },
+  "fix_snap_to_edge": {
+   "bottom": {
+    "completeness_10cm": 0.3519724839935393,
+    "correctness_10cm": 0.3887334727171,
+    "completeness_5cm": 0.23659582379530322
+   },
+   "top": {
+    "completeness_10cm": 0.34567682635157815,
+    "correctness_10cm": 0.3579944893051109,
+    "completeness_5cm": 0.20457939010177303
+   }
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "model_run": "20261109-0033_unet",
+ "OH_missing": {
+  "deleted_m": 2284.6,
+  "recall_deleted_length": 0.47275234176661124,
+  "false_candidates_m_per_km_map": 174.1188544557138
+ },
+ "RL_missing": {
+  "deleted_m": 1713.5,
+  "recall_deleted_length": 0.3899912459877444,
+  "false_candidates_m_per_km_map": 304.1213593512899
+ },
+ "controlled_shifts_auroc": {
+  "visible_5cm": 0.5377434278897277,
+  "visible_10cm": 0.6091663518675086,
+  "visible_20cm": 0.793101499587634,
+  "visible_50cm": 0.9598400668425492,
+  "visible_false_alarm_at_80pct_detection_20cm": 0.32395531650806786,
+  "all_5cm": 0.5321306574147413,
+  "all_10cm": 0.5760085965012192,
+  "all_20cm": 0.7267860012982115,
+  "all_50cm": 0.9079423117226111,
+  "all_false_alarm_at_80pct_detection_20cm": 0.40892914914267225
+ },
+ "unverifiable_share_of_control_pieces": 0.21805241022322874,
+ "lots_support_by_city_state": {
+  "CONSTITUE": 0.6006336039894453,
+  "EN_COURS_ACQUISITION": 0.4786490093100587,
+  "NECESSITE_NOUVELLE_ACQUISITION": 0.08081448078155518
+ },
+ "lots_auroc_low_support_vs_flagged_by_audit": 0.6,
+ "lots_auroc_low_support_vs_city_state_not_complete": 0.7142857142857143,
+ "lots": {
+  "n": 25,
+  "excluded_lots_rank": {
+   "BC02": 5,
+   "BC03": 6,
+   "C12": 8,
+   "30": 17,
+   "BC06": 19
+  }
+ }
+}
